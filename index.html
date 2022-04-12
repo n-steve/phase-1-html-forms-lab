@@ -12,16 +12,27 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 <form action="">
-<label for="name">Please Enter Your Full Name:</label>
-<input type="text" id="name" name="fullname" value="Enter Name" style="width:auto" required>
-<label for="email">Please Enter Your Email:</label>
-<input type="email" id="email" name="email" value="Enter Email" style="width:auto"required>
-<label for="phone"></label>
-<input type="tel" id="phone" name="phone" value="Enter Telephone(optional)"style="width:auto">
+<label for="fullname"></label>
+  <input type="text" id="fullname" placeholder="Enter Name" required>
+</form>
+<form action="">
+  <label for="email"></label>
+<input type="email" name="email" id="email" placeholder="Enter Email" required>
+</form>
+<form action=""> 
+  <label for="phone"></label>
+  <input type="tel" name="phone" id="phone" placeholder="Enter Telephone (optional)">
+</form>
+<form action=""></form>
 <label for="message"></label>
-<input type="text" id="message" name="message" value="Enter Message"style="width:auto">
-<input type="checkbox"id="checkbox" style="width:auto">
-<input type="submit" style="width:auto">
+<textarea name="message" id="message" placeholder="Enter Message" cols="30" rows="10"></textarea>
+</form>
+<form action="">
+  <input type="checkbox" name="" id="checkbox">
+</form>
+<form action="">
+<input type="submit">
+</form>
 </form>
 
 
